@@ -33,3 +33,15 @@ with open(output_filename, 'wb') as output_file:
 
 print(f"File '{input_filename}' has been encoded and saved as '{output_filename}'.")
 ```
+
+# Education
+Right now I'm pursuing Bachelor degree in Software Engineering at BNTU's Faculty of Information Technology and Robotics.
+Apart from that I opt for various stepik cources:
+https://stepik.org/cert/2549867
+https://stepik.org/cert/2544933
+https://stepik.org/cert/2497089
+
+# Languages
+- Russian
+- Belarusian
+- English
