@@ -2,10 +2,89 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
 <body>
-    
+    <header>
+        <div class="left">
+            <img src="img/ava.jpg" alt="Efimsohn's avatar" width="100%">
+        </div>
+
+        <div class="right">
+            <h1>
+                Efimenko Alexei 
+            </h1>
+            <h2>
+                Software Engineer
+            </h2>
+        </div>
+    </header>
+
+    <main>
+        <div class="left">
+            <h1>
+                Skills:
+            </h1>
+            <ul>
+                <li>Python(TKinter, Matplotlib)</li>
+                <li>C++(C++17, Qt framework)</li>
+                <li>TurboAssembler(simple stuff under DosBox)</li>
+            </ul>
+            <h1>
+                Languages:
+            </h1>
+            <ul>
+                <li>English</li>
+                <li>Russian</li>
+                <li>Belarusian</li>
+            </ul>
+            <h1>
+                Contact Information:
+            </h1>
+            <ul>
+                <li>Email: kumyo5500@gmail.com</li>
+                <li>GitHub: AVEfimsohn</li>
+                <li>Telegram: @EOStridsvagn</li>
+            </ul>
+        </div>
+
+        <div class="right">
+            <h1>
+                About Me:
+            </h1>
+            <p>
+                Hi, I'm a second year student of BNTU, Faculty of Information Technology and Robotics. Over the past year, I've got accuaited with basics of algorithmisation, computer architecture, math and learned basics of different programming languages like Python, C++ and TurboAssembler. Beyond university, I’m passionate about expanding my skills by taking specialized courses on Stepik and leetcoding.
+            </p>
+            <h1>
+                Education:
+            </h1>
+            <p>
+                Hi, I'm a second year student of BNTU, Faculty of Information Technology and Robotics. Over the past year, I've got accuaited with basics of algorithmisation, computer architecture, math and learned basics of different programming languages like Python, C++ and TurboAssembler. Beyond university, I’m passionate about expanding my skills by taking specialized courses on Stepik and leetcoding.
+            </p>
+            <h1>
+                Code Example:
+            </h1>
+            <p>
+    Python code from my lab work that encrypts text in certain file by adding 5 to symbol code:
+</p>
+<pre class="code"><code>input_filename = input("Enter input filename: ")
+output_filename = input("Enter output filename: ")
+
+with open(input_filename, 'rb') as input_file:
+    data = input_file.read()
+
+encoded_data = bytes((byte + 5) % 256 for byte in data)
+
+with open(output_filename, 'wb') as output_file:
+    output_file.write(encoded_data)
+
+print(f"File '{input_filename}' has been encoded and saved as '{output_filename}'.")</code></pre>
+        </div>
+    </main>
+
+    <footer>
+        All rights reserved
+    </footer>
 </body>
 </html>
