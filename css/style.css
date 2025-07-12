@@ -1,21 +1,29 @@
-header {
-    display: flex;
-    height: 100vh;
-}
-
 body {
-    display: flex;
+    display: grid;
     justify-content: center;
     background-color:honeydew;
 }
 
-.photo {
+header {
+    display: flex;
+    height: 25vh;
+}
+
+.left {
     width: 30%;
     background-color: azure;
     box-sizing: border-box;
 }
 
-.name {
+.right {
     width: 70%;
     background-color: floralwhite;
+}
+
+footer {
+    background: gray;
+    color: white;
+    height: 5vh;
+    text-align: center;
+    align-content: center;
 }
