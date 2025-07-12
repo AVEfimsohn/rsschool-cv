@@ -1,0 +1,21 @@
+header {
+    display: flex;
+    height: 100vh;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color:honeydew;
+}
+
+.photo {
+    width: 30%;
+    background-color: azure;
+    box-sizing: border-box;
+}
+
+.name {
+    width: 70%;
+    background-color: floralwhite;
+}
