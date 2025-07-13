@@ -44,6 +44,32 @@ footer {
     background: gray;
     color: white;
     height: 5vh;
-    text-align: center;
-    align-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer nav {
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+
+.git, .rs {
+    display: block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.git {
+    background-image: url(../img/git.png);
+    width: 30px;
+    height: 30px;
+}
+
+.rs {
+    background-image: url(../img/rs-school-logo.svg);
+    width: 50px;
+    height: 30px;
 }
