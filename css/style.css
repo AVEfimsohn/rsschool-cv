@@ -27,6 +27,10 @@ li {
     font-size: 15px;
 }
 
+.ava {
+    width: 100%
+}
+
 .code {
     width: 85%;
     background-color: white;
